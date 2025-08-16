@@ -472,4 +472,5 @@ if (!CFG.TOKEN || !CFG.CHANNEL_ID) {
   console.log('❌ Hãy dán TOKEN và CHANNEL_ID trong CFG ở đầu file.');
   process.exit(1);
 }
+
 client.login(CFG.TOKEN);
